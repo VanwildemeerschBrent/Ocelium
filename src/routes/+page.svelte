@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import "../app.css";
+  import Logo from '$lib/assets/logo.svg'
+</script>
+
+<div class="w-screen h-screen relative">
+  <img src={Logo} class="m-auto w-1/2 logo" alt="logo"/>
+</div>
+
+<style>
+  .logo{
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+</style>
