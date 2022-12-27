@@ -1,63 +1,26 @@
 {
   "src/lib/assets/logo.svg": {
-    "file": "internal/immutable/assets/logo-e44775ce.svg",
+    "file": "Ocelium/internal/immutable/assets/logo-e44775ce.svg",
     "src": "src/lib/assets/logo.svg"
   },
   "src/lib/assets/bg.jpg": {
-    "file": "internal/immutable/assets/bg-00e253a9.jpg",
+    "file": "Ocelium/internal/immutable/assets/bg-00e253a9.jpg",
     "src": "src/lib/assets/bg.jpg"
   },
   "src/routes/+page.css": {
-    "file": "internal/immutable/assets/_page-799e3426.css",
+    "file": "Ocelium/internal/immutable/assets/_page-799e3426.css",
     "src": "src/routes/+page.css"
   },
-  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
-    "file": "internal/immutable/components/layout.svelte-66e16d04.js",
-    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
-    "isEntry": true,
-    "imports": [
-      "_index-92993a8b.js"
-    ]
-  },
-  "__layout-025914ab.js": {
-    "file": "internal/immutable/chunks/_layout-025914ab.js"
-  },
-  "_index-92993a8b.js": {
-    "file": "internal/immutable/chunks/index-92993a8b.js"
-  },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "internal/immutable/chunks/1-e25671bc.js",
+    "file": "Ocelium/internal/immutable/chunks/1-3215ae71.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/2.js": {
-    "file": "internal/immutable/chunks/2-6a268fea.js",
-    "src": ".svelte-kit/generated/nodes/2.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "src/routes/+page.svelte"
-    ]
-  },
-  "_singletons-06527fda.js": {
-    "file": "internal/immutable/chunks/singletons-06527fda.js",
-    "imports": [
-      "_index-92993a8b.js"
-    ]
-  },
-  ".svelte-kit/generated/nodes/0.js": {
-    "file": "internal/immutable/chunks/0-3e4e5940.js",
-    "src": ".svelte-kit/generated/nodes/0.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "__layout-025914ab.js",
-      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
-    ]
-  },
   "src/routes/+layout.js": {
-    "file": "internal/immutable/modules/pages/_layout.js-55770e65.js",
+    "file": "Ocelium/internal/immutable/modules/pages/_layout.js-55770e65.js",
     "src": "src/routes/+layout.js",
     "isEntry": true,
     "imports": [
@@ -65,36 +28,73 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "internal/immutable/components/error.svelte-04dd723f.js",
+    "file": "Ocelium/internal/immutable/components/error.svelte-a0c35c7a.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-92993a8b.js",
-      "_singletons-06527fda.js"
+      "_singletons-f1aa8ead.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "internal/immutable/components/pages/_page.svelte-c143c663.js",
+    "file": "Ocelium/internal/immutable/components/pages/_page.svelte-c143c663.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-92993a8b.js"
     ],
     "css": [
-      "internal/immutable/assets/_page-799e3426.css"
+      "Ocelium/internal/immutable/assets/_page-799e3426.css"
     ],
     "assets": [
-      "internal/immutable/assets/logo-e44775ce.svg",
-      "internal/immutable/assets/bg-00e253a9.jpg"
+      "Ocelium/internal/immutable/assets/logo-e44775ce.svg",
+      "Ocelium/internal/immutable/assets/bg-00e253a9.jpg"
     ]
   },
+  "_singletons-f1aa8ead.js": {
+    "file": "Ocelium/internal/immutable/chunks/singletons-f1aa8ead.js",
+    "imports": [
+      "_index-92993a8b.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
+    "file": "Ocelium/internal/immutable/components/layout.svelte-66e16d04.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-92993a8b.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "Ocelium/internal/immutable/chunks/2-6a268fea.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  "_index-92993a8b.js": {
+    "file": "Ocelium/internal/immutable/chunks/index-92993a8b.js"
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "Ocelium/internal/immutable/chunks/0-3e4e5940.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-025914ab.js",
+      "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte"
+    ]
+  },
+  "__layout-025914ab.js": {
+    "file": "Ocelium/internal/immutable/chunks/_layout-025914ab.js"
+  },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "internal/immutable/start-a2be2d3e.js",
+    "file": "Ocelium/internal/immutable/start-ea96bbca.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-92993a8b.js",
-      "_singletons-06527fda.js"
+      "_singletons-f1aa8ead.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
