@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,9 +17,9 @@ const config = {
 			fallback:'index.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === "production" ? "/Ocelium" : "",
+			base: dev ? '' : '',
 		},
-		appDir: 'Ocelium/internal',
+		appDir: 'internal',
 	}
 };
 
