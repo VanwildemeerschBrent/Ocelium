@@ -1,18 +1,39 @@
 <script>
   import "../app.css";
-  import Logo from '$lib/assets/logo.svg';
-  import Bg from '$lib/assets/bg.jpg';
+  import Logo from "$lib/assets/logo.svg";
+  import Bg from "$lib/assets/bg.jpg";
 </script>
 
-<div class="w-screen h-screen relative overflow-hidden">
-  <img src={Bg} class="absolute w-screen h-screen left-0 top-0 opacity-75 object-cover" alt="background"/>
-  <img src={Logo} class="m-auto w-60 md:w-1/3 logo" alt="logo"/>
+<div class="container">
+  <img src={Bg} class="bg" alt="background" />
+  <img src={Logo} class="logo" alt="logo" />
 </div>
 
 <style>
-  .logo{
+  .container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
     position: relative;
+  }
+  .bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+  }
+  .logo {
+    position: relative;
+    display: block;
+    width: 30%;
+    margin: auto;
     transform: translateY(-50%);
     top: 50%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+      width: 70%;
+    }
   }
 </style>
